@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Data</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
+</head>
+<body>
+    <h1>Chargeur de données pour le Football </h1>
+    
+    <!-- Bouton pour charger les données -->
+    <button id="load-data">Données de chargement du Football</button>
+    <p id="result"></p>
+
+    <!-- Formulaire de recherche -->
+    <h2>Donnée de chargement pour le Football</h2>
+    <input type="text" id="search-query" placeholder="Enter un mot clé">
+    <button id="search-data">Recherche</button>
+    
+    <!-- Affichage des résultats de recherche -->
+    <div id="search-results"></div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
+
+
+
+
+
+
+
